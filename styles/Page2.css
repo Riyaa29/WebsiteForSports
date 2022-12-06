@@ -1,0 +1,8 @@
+.sport-type-icon button {
+    background-color: transparent;
+    border: unset;
+}
+
+.sport-type-icon img {
+    width: 100px;
+}

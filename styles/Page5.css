@@ -1,0 +1,55 @@
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 50px;
+}
+
+.marging-top {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.sectiion-color-1 {
+    background-color: #fdb2d5;
+}
+
+.sectiion-color-2 {
+    background-color: #96f986;
+}
+
+.sectiion-color-3 {
+    background-color: #c686f9;
+}
+
+div fieldset {
+    padding: 20px;
+}
+
+div fieldset input {
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+div fieldset .input-width {
+    width: 23%;
+}
+
+div fieldset .button-submit {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    border: unset;
+    padding: 5px 15px;
+}
+
+div fieldset .button-rest {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border: unset;
+    padding: 5px 15px;
+}

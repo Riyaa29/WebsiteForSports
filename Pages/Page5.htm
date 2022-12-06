@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <!-- Riya Nagpal 
+     Desription: Web Client Project
+	 Date:   Nov 26, 2022                -->
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Login Form</title>
+        <link rel="stylesheet" href="../styles/Page5.css" />
+        <link rel="stylesheet" href="../styles/common.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="../script/cookie-form.js"></script>
+    </head>
+
+    <body onload="startTimer()">
+        <div class="marging-top sectiion-color-1">
+            <form
+                name="myForm"
+                onsubmit="return validateForm()"
+                action="./contactDetails.htm"
+            >
+                <fieldset>
+                    <legend>Contact Us:</legend>
+                    <label for="fname">First Name:</label>
+                    <br />
+                    <input
+                        class="input-width"
+                        type="text"
+                        name="fname"
+                        id="fname"
+                    />
+                    <br /><br />
+                    <label for="lname">Last Name:</label>
+                    <br />
+                    <input
+                        class="input-width"
+                        type="text"
+                        name="lname"
+                        id="lname"
+                    />
+                    <br /><br />
+                    <p>How to get back:</p>
+                    <input
+                        type="radio"
+                        id="byEmail"
+                        name="contactBack"
+                        value="Email"
+                    />
+                      <label for="byEmail">By Email</label>
+                     
+                    <input
+                        type="radio"
+                        id="byphone"
+                        name="contactBack"
+                        value="phone"
+                    />
+                     
+                    <label for="byphone">By Phone</label>  <br /><br />
+                    <label for="email">Email:</label>
+                    <br />
+                    <input
+                        class="input-width"
+                        type="text"
+                        name="email"
+                        id="email"
+                    />
+                    <br /><br />
+                    <label for="phone">Phone No.:</label>
+                    <br />
+                    <input
+                        class="input-width"
+                        type="number"
+                        name="phone"
+                        id="phone"
+                    />
+
+                    <br /><br />
+                    <label for="message">Message:</label>
+                    <br />
+                    <textarea
+                        class="input-width"
+                        name="message"
+                        id="message"
+                        rows="4"
+                        cols="50"
+                    >
+                    </textarea>
+                    <br />
+                    <input class="button-submit" type="submit" onclick="" />
+                    <input class="button-rest" type="reset" />
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
+
+

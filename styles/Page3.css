@@ -1,0 +1,12 @@
+.search-sport {
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(162, 0, 100)
+}
+
+.search-result {
+    text-align: center;
+}
+
+.search-result h1 {
+}
